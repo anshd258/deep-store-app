@@ -38,12 +38,12 @@ class Overvie extends StatelessWidget {
         centerTitle: true,
       ),
       body: GridView.builder(
-        padding: const EdgeInsets.all(5),
+        padding: const EdgeInsets.all(10),
         itemCount: loae.length,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisSpacing: 5,
-          mainAxisSpacing: 10,
-          crossAxisCount: 2,
+          crossAxisSpacing: 15,
+          mainAxisSpacing: 25,
+          crossAxisCount: 3,
           childAspectRatio: 3 / 2,
         ),
         itemBuilder: ((context, i) => ProductTile(
